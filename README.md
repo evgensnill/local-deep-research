@@ -68,7 +68,7 @@ temperature = 0.1
 [search]
 engine = "duckduckgo"       # Options: duckduckgo, searxng, tavily
 max_results = 10
-max_iterations = 3
+max_iterations = 5          # increased from 3 — better depth for complex topics
 
 [output]
 format = "markdown"          # Options: markdown, json, html
@@ -101,14 +101,4 @@ local_deep_research/
 We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 - 🐛 [Report a bug](.github/ISSUE_TEMPLATE/bug_report.md)
-- 💡 [Request a feature](.github/ISSUE_TEMPLATE/feature_request.md)
-- 🔀 [Submit a pull request](.github/PULL_REQUEST_TEMPLATE/first_time_contributor.md)
-
-## License
-
-MIT License — see [LICENSE](LICENSE) for details.
-
-## Acknowledgements
-
-- Original project by [LearningCircuit](https://github.com/LearningCircuit/local-deep-research)
-- Built with [LangChain](https://github.com/langchain-ai/langchain) and [Ollama](https://ollama.ai/)
+- 💡 [Request a feature]
