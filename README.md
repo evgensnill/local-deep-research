@@ -73,6 +73,7 @@ max_iterations = 5          # increased from 3 — better depth for complex topi
 [output]
 format = "markdown"          # Options: markdown, json, html
 save_sources = true
+citations_style = "inline"  # added: prefer inline citations over footnotes
 ```
 
 ## Architecture
@@ -100,5 +101,4 @@ local_deep_research/
 
 We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
-- 🐛 [Report a bug](.github/ISSUE_TEMPLATE/bug_report.md)
-- 💡 [Request a feature]
+- 🐛 [Report a bug]
