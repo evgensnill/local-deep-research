@@ -74,6 +74,7 @@ max_iterations = 5          # increased from 3 — better depth for complex topi
 format = "markdown"          # Options: markdown, json, html
 save_sources = true
 citations_style = "inline"  # added: prefer inline citations over footnotes
+output_dir = "~/research"   # personal default: save all reports to home dir
 ```
 
 ## Architecture
@@ -99,6 +100,4 @@ local_deep_research/
 
 ## Contributing
 
-We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
-- 🐛 [Report a bug]
+We welcome contributions! Pleas
